@@ -49,7 +49,6 @@ $data = mysqli_fetch_array($records)
     <input disabled name="chap" type="number" value="<?php echo $data['episodeTotal'] ?>"><br>
     <a href="./seriech-server.php?id=<?php echo $data['id']; ?>"><button class="btnn btn-submit" type="submit"><i class="fas fa-edit"></i> Edit</button></a>
 
-    </form>
     <a class="btnn" href="serie-list.php"><button class="show-serie"><i class="fas fa-eye"></i> Show All serie</button></a>
     <div class="chapters">
       <?php
